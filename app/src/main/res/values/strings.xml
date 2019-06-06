@@ -22,7 +22,6 @@
     <string name="living_rules_title">House rules</string>
     <string name="living_rules">This is text for the House rules part of the living Activity</string>
     <string name="living_consumption">Consumption Assistant</string>
-
     <string name="default_name">Name</string>
     <string name="default_desc">Description</string>
     <string name="default_type">Type</string>
@@ -45,4 +44,7 @@
     <string name="washing_machines">Washing Machines</string>
     <string name="location">Location</string>
     <string name="error">error</string>
+    <string name="add_item_name">Item Name</string>
+    <string name="add_phone_number">Phone Number</string>
+    <string name="add_item">Add Item</string>
 </resources>
