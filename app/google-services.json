@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "242013787292",
+    "firebase_url": "https://drosselboapp.firebaseio.com",
+    "project_id": "drosselboapp",
+    "storage_bucket": "drosselboapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242013787292:android:00191321bcb22d52",
+        "android_client_info": {
+          "package_name": "com.example.drosselapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242013787292-go631qsu4ebfncdd7ncrjqrsff72fikv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drosselapp",
+            "certificate_hash": "d5578a64a21448a4d87003ca12c12b904c726668"
+          }
+        },
+        {
+          "client_id": "242013787292-jls9ro6olfjg7ntre4296kojolivblgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxTFtniaZccYHZc1RPZsPi6tqWZWLLjcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242013787292-jls9ro6olfjg7ntre4296kojolivblgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

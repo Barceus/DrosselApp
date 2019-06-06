@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".AddBlackboardItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/itemNameEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:backgroundTint="@android:color/white"
+                android:ems="10"
+                android:hint="Item Name"
+                android:inputType="textPersonName"
+                android:maxLength="15"
+                android:singleLine="true"
+                android:textColor="@android:color/white" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/priceEdit"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:backgroundTint="@android:color/white"
+                android:ems="4"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/default_price"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/descEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="@string/default_desc"
+            android:inputType="textPersonName"
+            android:maxLength="500"
+            android:singleLine="false"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/phoneEdit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/white"
+                android:digits="0123456789+"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:maxLength="15"
+                android:singleLine="true"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <RadioGroup
+                android:id="@+id/typeGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/borrowRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@android:color/white"
+                    android:checked="true"
+                    android:text="@string/borrow"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/buyRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@android:color/white"
+                    android:text="@string/buy"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/sellRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@android:color/white"
+                    android:text="@string/sell"
+                    android:textColor="@android:color/white" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/locationGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/SVradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@android:color/white"
+                    android:checked="true"
+                    android:text="@string/sv"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/KTRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@android:color/white"
+                    android:text="@string/kt"
+                    android:textColor="@android:color/white" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addItemButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Add Item"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

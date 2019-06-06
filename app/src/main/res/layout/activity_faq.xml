@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#554141"
+    android:orientation="vertical"
+    android:textColor="@android:color/black"
+    tools:context=".FaqActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/faqSv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF5F5"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/faqSvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student Village"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faqSvText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/faq_student_village"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/faqKt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBD7D7"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/faqKtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kamtjatka"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faqKtText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/faq_kt"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/faqBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CDB9B9"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/faqBookTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Booking a Room"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faqBookText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/faq_book"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/faqMoveIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AF9B9B"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/faqMoveInTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Moving In"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faqMoveInText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/faq_moveIn"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/faqMoveOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#917D7D"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/faqMoveOutTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Moving Out"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faqMoveOutText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/faq_moveOut"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/faqAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#735F5F"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/faqAboutTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Drosselbo"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faqAboutText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/faq_about_title"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/faqLiving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/faqLivingTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/faq_living_title"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faqLivingText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/faq_living"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

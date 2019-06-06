@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#554141"
+    android:orientation="vertical"
+    tools:context=".LivingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/livingBrokenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AF9B9B"
+            android:padding="8dp"
+            android:text="@string/living_broken"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/livingHowTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#917D7D"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/livingHowToTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/living_howTo_title"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/livingHowToText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/living_howTo"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/livingRules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#735F5F"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/livingRulesTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/living_rules_title"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/livingRulesText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/living_rules"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/livingConsumptionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:text="@string/living_consumption"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
